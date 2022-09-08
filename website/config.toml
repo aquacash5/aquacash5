@@ -1,0 +1,7 @@
+base_url = "https://kylebloom.dev"
+compile_sass = true
+highlight_code = false
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
