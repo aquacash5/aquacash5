@@ -1,0 +1,30 @@
+@import "_pico.scss";
+
+a.external {
+  background-image: url(/external-link.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 0.857em;
+  padding-right: 1em;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px var(--pico-color) dashed;
+
+  nav a {
+    color: var(--pico-h3-color);
+  }
+}
+
+.employer .icon {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  margin-bottom: 1em;
+}
+
+.employment-time {
+  text-decoration: underline;
+}

@@ -1,7 +1,27 @@
 base_url = "https://kylebloom.dev"
+title = "kylebloom.dev"
+
 compile_sass = true
-highlight_code = false
 build_search_index = false
+minify_html = true
+generate_robots_txt = true
+generate_sitemap = true
+
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-mirage"
+render_emoji = true
 
 [extra]
-# Put all your custom variables here
+menu_items = [
+  # each of these is optional, name and url are required
+  # $BASE_URL is going to be substituted by base_url from configuration
+  # set newtab to true to make the link open in new tab
+  # tags should only be enabled if you have "tags" taxonomy
+  # see documentation below for more details
+
+  { name = "Employment", url = "$BASE_URL/employment" },
+  { name = "GitHub", url = "https://github.com/aquacash5", newtab = true, external = true },
+]
