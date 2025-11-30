@@ -24,6 +24,7 @@ jobs:
         uses: shalzz/zola-deploy-action@v0.21.0
         env:
           BUILD_DIR: website
+          BUILD_ONLY: true
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
