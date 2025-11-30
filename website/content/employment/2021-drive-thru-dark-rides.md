@@ -5,7 +5,7 @@ template = "employment-page.html"
 
 [extra]
 end_date = 2022-01-01
-logo = "dtdr-logo.png"
+logo = "/employment/logos/dtdr-logo.png"
 +++
 
 Created embedded platform for controlling tram audio based on proximity to

@@ -5,7 +5,7 @@ template = "employment-page.html"
 
 [extra]
 end_date = 2020-02-01
-logo = "autologue-logo.png"
+logo = "/employment/logos/autologue-logo.png"
 +++
 
 Maintained B2B SaaS applications for automotive industry.

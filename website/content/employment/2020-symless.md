@@ -5,7 +5,7 @@ template = "employment-page.html"
 
 [extra]
 end_date = 2024-08-01
-logo = "symless-logo.png"
+logo = "/employment/logos/symless-logo.png"
 +++
 
 Created and maintained applications used for sharing input devices between
