@@ -1,0 +1,7 @@
+{% macro employment_time(start, end=0) %}
+  <div class="employment-time">
+    <em>{{ start | date(format="%Y-%m") }}</em>
+    to
+    <em>{% if end == 0 %}present{% else %}{{ end | date(format="%Y-%m") }}{% endif %}</em>
+  </div>
+{% endmacro employment_time %}

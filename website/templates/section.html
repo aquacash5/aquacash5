@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{%- if section.title %}
+  {% block title %}
+  {{ section.title | safe }} | {{ config.title }}
+  {% endblock title %}
+{% endif -%}
+
+{% block content %}
+{{ section.content | safe }}
+{% endblock content %}

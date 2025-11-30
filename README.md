@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[![most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aquacash5&layout=compact&count_private=true&theme=vue-dark&hide_border=true)](https://github.com/aquacash5)
+
 <!--
 **aquacash5/aquacash5** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

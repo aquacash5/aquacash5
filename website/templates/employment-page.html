@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% import "macros/logos.html" as logos %}
+{% import "macros/employment.html" as employment %}
+
+{% block content %}
+  <article>
+    <h1>
+  {%- if page.extra.logo %}
+    {{ logos::logo(path=page.extra.logo, alt=page.title) }}
+  {% else %}
+    {{ page.title }}
+  {% endif -%}
+  </h1>
+  {{ page.content | safe }}
+  </article>
+{% endblock content %}

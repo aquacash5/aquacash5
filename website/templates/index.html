@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html data-theme="dark">
+  <head>
+    <title>{% block title%}{{ config.title }}{%endblock title%}</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ config.base_url }}">
+                <strong>{{ config.title }}</strong>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            {% for menu in config.extra.menu_items %}
+              <li>
+                <a
+                  href="{{ menu.url | replace(from='$BASE_URL', to=config.base_url) }}"
+                  {% if menu.external %}class="external"{% endif %}
+                  {% if menu.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}
+                >
+                  {{ menu.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
+      <main>
+        {% block content %}
+        {%- if section %}
+          {{ section.content | safe }}
+        {% else %}
+          {{ page.content | safe }}
+        {% endif -%}
+        {% endblock content %}
+      </main>
+      <footer>
+        <div class="copyright">&copy; 2024-{{now()|date(format='%Y')}} Kyle Bloom. All rights reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>

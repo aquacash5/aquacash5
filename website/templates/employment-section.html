@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+
+{% import "macros/logos.html" as logos %}
+{% import "macros/employment.html" as employment %}
+
+{%- if section.title %}
+  {% block title %}
+  {{ section.title | safe }} | {{ config.title }}
+  {% endblock title %}
+{% endif -%}
+
+{% block content %}
+  <div class="employers">
+  <h2>Employers</h2>
+  {{ section.content | safe }}
+  {% for page in section.pages %}
+    {%- if page.extra.end_date %}
+      {% set employment_time = employment::employment_time(start=page.date, end=page.extra.end_date) %}
+    {% else %}
+      {% set employment_time = employment::employment_time(start=page.date) %}
+    {% endif -%}
+    <article class="employer">
+      <div class="icon">
+        <a href="{{ page.permalink }}">
+          {{ logos::logo(path=page.extra.logo, alt=page.title) }}
+        </a>
+        {{ employment_time | safe }}
+      </div>
+      {{ page.summary | safe }}
+    </article>
+    {% endfor %}
+  </div>
+{% endblock content %}

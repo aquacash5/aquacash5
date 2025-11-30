@@ -1,0 +1,4 @@
+{% macro logo(path, alt) %}
+  {% set image = resize_image(path=path, height=200, width=200,op="fit", format="auto") %}
+  <img src="{{ image.url }}" alt="{{ alt }}" />
+{% endmacro logo %}
