@@ -975,7 +975,7 @@ button,
 [type=submit],
 [type=reset],
 [type=button] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 button,
@@ -1322,7 +1322,7 @@ textarea {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -1846,7 +1846,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
   transition: background-color var(--pico-transition), transform var(--pico-transition);
 }
 [type=range]::-moz-range-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   width: 1.25rem;
   height: 1.25rem;
   margin-top: -0.4375rem;
@@ -1858,7 +1858,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
   transition: background-color var(--pico-transition), transform var(--pico-transition);
 }
 [type=range]::-ms-thumb {
-  -webkit-appearance: none;
+  appearance: none;
   width: 1.25rem;
   height: 1.25rem;
   margin-top: -0.4375rem;
@@ -2810,7 +2810,7 @@ select,
 summary,
 textarea,
 [tabindex] {
-  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 [dir=rtl] {
