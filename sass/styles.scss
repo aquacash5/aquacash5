@@ -1,5 +1,10 @@
 @import "_pico.scss";
 
+html,
+body {
+  height: 100%;
+}
+
 a.external {
   background-image: url(/external-link.svg);
   background-position: center right;
@@ -27,4 +32,30 @@ header {
 
 .employment-time {
   text-decoration: underline;
+}
+
+a:has(article) {
+  text-decoration: inherit;
+  --pico-color: var(--pico-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+  > main {
+    flex-grow: 1;
+  }
+
+  > header > footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  > footer {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+  }
 }
