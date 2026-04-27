@@ -13,6 +13,7 @@ taxonomies = [{ name = "tags" }]
 render_emoji = true
 
 [markdown.highlighting]
+theme = "ayu-dark"
 style = "class"
 
 [extra]
