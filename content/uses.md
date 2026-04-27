@@ -1,0 +1,34 @@
++++
+title = "Uses"
++++
+
+## Software
+
+- My Kernel of choice is [Linux](https://www.linux.org/) and the distro is [Bluefin](https://projectbluefin.io/).
+- [Ghostwriter](https://ghostwriter.kde.org/) is my Markdown editor of choice.
+- [Firefox](https://www.firefox.com/en-GB/) is my daily web browser.
+
+### Development
+
+- [Visual Studio Code](https://code.visualstudio.com/) is my current editor. Though, I am in the process of learning [Neovim](https://neovim.io/).
+- I use the theme Dark+ from the default themes.
+- My font of choice is [FiraCode](https://firacode.org/) [Nerd Font](https://www.nerdfonts.com/font-downloads) with ligatures enabled.
+
+## NAS + Server
+
+<!-- TODO -->
+
+## Desktop
+
+- [FRACTAL MESHIFY 2 LIGHT TEMPERED GLASS](https://www.fractal-design.com/products/cases/meshify/meshify-2/black-tg-dark-tint/)
+- [AMD Ryzen 9 5950X 16 Core CPU](https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-9-5950x.html)
+- [12GB NVIDIA GEFORCE RTX 3060 - LHR](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/)
+- [64GB Corsair VENGEANCE RGB PRO DDR4 3200MHz (4 x 16GB)](https://www.corsair.com/ww/en/s/vengeance-rgb-pro-memory)
+
+### Peripherals
+
+<!-- TODO -->
+
+### Desk
+
+<!-- TODO -->
