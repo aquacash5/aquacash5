@@ -10,9 +10,10 @@ generate_sitemap = true
 taxonomies = [{ name = "tags" }]
 
 [markdown]
-highlight_code = true
-highlight_theme = "ayu-mirage"
 render_emoji = true
+
+[markdown.highlighting]
+style = "class"
 
 [extra]
 menu_items = [
