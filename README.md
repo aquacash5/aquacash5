@@ -21,4 +21,4 @@ I tend to focus on projects that solve real problems.
 
 ## Let’s Connect
 
-If you’re interested in collaborating, have an idea, or just want to chat about projects or tech, feel free to [reach out](/contact).
+If you’re interested in collaborating, have an idea, or just want to chat about projects or tech, feel free to [reach out](https://kylebloom.dev/contact).
