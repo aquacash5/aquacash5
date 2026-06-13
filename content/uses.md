@@ -14,6 +14,12 @@ title = "Uses"
 - I use the theme Dark+ from the default themes.
 - My font of choice is [FiraCode](https://firacode.org/) [Nerd Font](https://www.nerdfonts.com/font-downloads) with ligatures enabled.
 
+#### Languages
+
+- [Rust](https://rust-lang.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Python](https://www.python.org/)
+
 ## NAS + Server
 
 - [QNAP TS-673A](https://www.qnap.com/en/product/ts-673a)
