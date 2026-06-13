@@ -5,11 +5,10 @@ body {
   height: 100%;
 }
 
-a.external {
-  background-image: url(/external-link.svg);
-  background-position: center right;
-  background-repeat: no-repeat;
-  background-size: 0.857em;
+a.external-link::after {
+  content: "";
+  background-color: var(--pico-color);
+  mask: url(/external-link.svg) no-repeat center / contain;
   padding-right: 1em;
 }
 
@@ -18,8 +17,20 @@ header {
   margin-bottom: 30px;
   border-bottom: 2px var(--pico-color) dashed;
 
-  nav a {
-    color: var(--pico-h3-color);
+  nav {
+    align-items: baseline;
+
+    a {
+      --pico-color: var(--pico-h3-color);
+
+      strong {
+        font-size: 40px;
+      }
+    }
+
+    img {
+      max-height: 1em;
+    }
   }
 }
 

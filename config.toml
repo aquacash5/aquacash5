@@ -11,6 +11,7 @@ taxonomies = [{ name = "tags" }]
 
 [markdown]
 render_emoji = true
+external_links_class = "external-link"
 
 [markdown.highlighting]
 theme = "ayu-dark"

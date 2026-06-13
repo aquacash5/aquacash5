@@ -4,8 +4,9 @@
   <head>
     <title>{% block title%}{{ config.title }}{%endblock title%}</title>
     <meta charset="utf-8">
-    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="/styles.css" as="style">
     <link rel="stylesheet" href="/styles.css" type="text/css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   </head>
   <body>
     <div class="container">
@@ -14,7 +15,7 @@
           <ul>
             <li>
               <a href="{{ config.base_url }}">
-                <strong>{{ config.title }}</strong>
+                <strong><img src="/favicon.svg" alt="Kyle Bloom" /> {{ config.title }}</strong>
               </a>
             </li>
           </ul>
@@ -23,7 +24,7 @@
               <li>
                 <a
                   href="{{ menu.url | replace(from='$BASE_URL', to=config.base_url) }}"
-                  {% if menu.external %}class="external"{% endif %}
+                  {% if menu.external %}class="external-link"{% endif %}
                   {% if menu.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}
                 >
                   {{ menu.name }}
