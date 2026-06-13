@@ -1,4 +1,6 @@
-@import "_pico.scss";
+@use "sass:map";
+@use "_picocss/_settings" as *;
+@use "_picocss/pico.scss";
 
 html,
 body {
@@ -20,11 +22,23 @@ header {
   nav {
     align-items: baseline;
 
+    @if map.get($breakpoints, "md") {
+      @media (max-width: map.get(map.get($breakpoints, "md"), "breakpoint")) {
+        flex-direction: column;
+
+        ul {
+          width: 100%;
+          justify-content: space-around;
+        }
+      }
+    }
+
     a {
       --pico-color: var(--pico-h3-color);
 
       strong {
         font-size: 40px;
+        position: relative;
       }
     }
 
