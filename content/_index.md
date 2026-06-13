@@ -3,7 +3,7 @@
 
 # About myself
 
-Hi, I’m Kyle Bloom a developer who enjoys building practical tools, experimenting with new technologies, and contributing to open source.
+Hi, I’m Kyle Bloom, a developer who enjoys building practical tools, experimenting with new technologies, and contributing to open source.
 
 My work sits at the intersection of curiosity and utility. I like solving small problems in slightly unconventional ways and turning them into something usable.
 
