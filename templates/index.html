@@ -25,7 +25,7 @@
                 <a
                   href="{{ menu.url | replace(from='$BASE_URL', to=config.base_url) }}"
                   {% if menu.external %}class="external-link"{% endif %}
-                  {% if menu.new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}
+                  {% if menu.new_tab %}target="_blank" rel="noopener"{% endif %}
                 >
                   {{ menu.name }}
                 </a>
