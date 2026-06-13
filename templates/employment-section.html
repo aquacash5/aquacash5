@@ -1,6 +1,8 @@
 {% extends "index.html" %}
+
 {% import "macros/logos.html" as logos %}
 {% import "macros/employment.html" as employment %}
+
 {%- if section.title %}
   {% block title %}
     {{ section.title | safe }} | {{ config.title }}
