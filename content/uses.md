@@ -14,7 +14,7 @@ title = "Uses"
 - I use the theme Dark+ from the default themes.
 - My font of choice is [FiraCode](https://firacode.org/) [Nerd Font](https://www.nerdfonts.com/font-downloads) with ligatures enabled.
 
-## NAS + Server
+<!-- ## NAS + Server -->
 
 <!-- TODO -->
 
@@ -25,10 +25,10 @@ title = "Uses"
 - [12GB NVIDIA GEFORCE RTX 3060 - LHR](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/)
 - [64GB Corsair VENGEANCE RGB PRO DDR4 3200MHz (4 x 16GB)](https://www.corsair.com/ww/en/s/vengeance-rgb-pro-memory)
 
-### Peripherals
+<!-- ### Peripherals -->
 
 <!-- TODO -->
 
-### Desk
+<!-- ### Desk -->
 
 <!-- TODO -->

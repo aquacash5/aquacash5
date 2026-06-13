@@ -6,12 +6,14 @@
 {% block content %}
   <article>
     <h1>
-  {%- if page.extra.logo %}
-    {{ logos::logo(path=page.extra.logo, alt=page.title) }}
-  {% else %}
-    {{ page.title }}
-  {% endif -%}
-  </h1>
-  {{ page.content | safe }}
+      {%- if page.extra.url %}<a href="{{ page.extra.url }}" target="_blank">{% endif %}
+      {%- if page.extra.logo %}
+        {{ logos::logo(path=page.extra.logo, alt=page.title) }}
+      {% else %}
+        {{ page.title }}
+      {% endif -%}
+      {%- if page.extra.url %}</a>{% endif %}
+    </h1>
+    {{ page.content | safe }}
   </article>
 {% endblock content %}

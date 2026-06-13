@@ -9,7 +9,7 @@ My work sits at the intersection of curiosity and utility. I like solving small 
 
 ## What I Do
 
-I primarily work with technologies like Python, JavaScript, and Rust, building projects that range from small utilities to more fully featured applications.
+I primarily work with technologies like [Python](https://www.python.org/), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), and [Rust](https://rust-lang.org/), building projects that range from small utilities to more fully featured applications.
 
 I’m especially interested in:
 
@@ -22,7 +22,7 @@ I tend to focus on projects that solve real problems.
 
 ## How I Work
 
-I like to keep things simple, functional, and iterative.
+I believe in the long haul and make decisions based on how they effect the development and long term maintenance of a project. I like to keep things simple, functional, and iterative.
 
 - Build quickly, then refine
 - Prefer clarity over cleverness
