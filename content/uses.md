@@ -14,9 +14,9 @@ title = "Uses"
 - I use the theme Dark+ from the default themes.
 - My font of choice is [FiraCode](https://firacode.org/) [Nerd Font](https://www.nerdfonts.com/font-downloads) with ligatures enabled.
 
-<!-- ## NAS + Server -->
+## NAS + Server
 
-<!-- TODO -->
+- [QNAP TS-673A](https://www.qnap.com/en/product/ts-673a)
 
 ## Desktop
 
@@ -25,9 +25,13 @@ title = "Uses"
 - [12GB NVIDIA GEFORCE RTX 3060 - LHR](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/)
 - [64GB Corsair VENGEANCE RGB PRO DDR4 3200MHz (4 x 16GB)](https://www.corsair.com/ww/en/s/vengeance-rgb-pro-memory)
 
-<!-- ### Peripherals -->
+### Peripherals
 
-<!-- TODO -->
+- Logitech MX Master 3
+- [Logitech ERGO K860](https://www.logitech.com/en-us/shop/p/k860-split-ergonomic)
+- Logitech Z200 PC Speakers
+- [Anker Laptop Power Bank](https://www.anker.com/products/a1695-anker-power-bank-25000mah-165w)
+- [USB 3.0 4 Computer Switch](https://www.amazon.co.uk/dp/B0B74SPYFN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
 <!-- ### Desk -->
 
