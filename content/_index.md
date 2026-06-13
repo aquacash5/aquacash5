@@ -41,4 +41,4 @@ For many years I have enjoyed table-top role-playing games. I find value in stra
 
 ## Let’s Connect
 
-If you’re interested in collaborating, have an idea, or just want to chat about projects or tech, feel free to [reach out](/contact).
+If you’re interested in collaborating, have an idea, or just want to chat about projects or tech, feel free to [reach out](mailto:kylejbloom@gmail.com).
