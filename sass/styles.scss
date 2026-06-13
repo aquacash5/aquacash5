@@ -22,14 +22,12 @@ header {
   nav {
     align-items: baseline;
 
-    @if map.get($breakpoints, "md") {
-      @media (max-width: map.get(map.get($breakpoints, "md"), "breakpoint")) {
-        flex-direction: column;
+    @media (max-width: map.get(map.get($breakpoints, "md"), "breakpoint")) {
+      flex-direction: column;
 
-        ul {
-          width: 100%;
-          justify-content: space-around;
-        }
+      ul {
+        width: 100%;
+        justify-content: space-around;
       }
     }
 
@@ -55,8 +53,18 @@ header {
   margin-bottom: 1em;
 }
 
-.employment-time {
-  text-decoration: underline;
+.employer .icon {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+  @media (max-width: map.get(map.get($breakpoints, "md"), "breakpoint")) {
+    flex-direction: column;
+  }
+
+  .employment-time {
+    text-decoration: underline;
+  }
 }
 
 a:has(article) {
