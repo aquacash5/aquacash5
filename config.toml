@@ -25,5 +25,6 @@ menu_items = [
   # see documentation below for more details
 
   { name = "Employment", url = "$BASE_URL/employment" },
+  { name = "Uses", url = "$BASE_URL/uses" },
   { name = "GitHub", url = "https://github.com/aquacash5", new_tab = true, external = true },
 ]
